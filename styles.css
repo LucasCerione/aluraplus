@@ -165,9 +165,11 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+
     .container {
         display: block;
         background-image: none;
+        margin: 0 1vw;
     }
 
     .container__imagem {
@@ -195,18 +197,19 @@ body {
         display: block;
     }
 
-    .container__principal,
-    .container__secundario {
-        margin: 8em 1vw;
-        text-align: center;
-    }
-
     .lista__link {
         margin-bottom: 12px;
     }
 
     .dispositivos__titulo {
         font-size: 36px;
+    }
 
+    .dispositivos {
+        margin: 3em 0;
+    }
+
+    .rodape {
+        margin: 8em 2vw;
     }
 }
